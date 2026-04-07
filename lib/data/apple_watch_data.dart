@@ -1,0 +1,55 @@
+import '../models/product_model.dart';
+
+final List<ProductModel> listaAppleWatches = [
+  ProductModel(
+    nombre: 'Apple Watch SE',
+    categoria: 'Apple Watch',
+    anio: 2023,
+    pantalla: '40mm / 44mm LTPO OLED',
+    procesador: 'Apple S8',
+    almacenamiento: '32GB',
+    memoria: '1GB RAM',
+    camara: 'No tiene',
+    bateria: 'Hasta 18 horas',
+    conectividad: 'Wi-Fi, Bluetooth 5.3, GPS',
+    precioBase: 249.0,
+    preciosPorAlmacenamiento: {
+      '40mm': 249.0,
+      '44mm': 279.0,
+    },
+  ),
+  ProductModel(
+    nombre: 'Apple Watch Series 10',
+    categoria: 'Apple Watch',
+    anio: 2024,
+    pantalla: '42mm / 46mm LTPO OLED',
+    procesador: 'Apple S10',
+    almacenamiento: '64GB',
+    memoria: '1GB RAM',
+    camara: 'No tiene',
+    bateria: 'Hasta 18 horas',
+    conectividad: 'Wi-Fi 6, Bluetooth 5.3, GPS, Ultra Wideband',
+    precioBase: 399.0,
+    preciosPorAlmacenamiento: {
+      '42mm': 399.0,
+      '46mm': 429.0,
+    },
+  ),
+  ProductModel(
+    nombre: 'Apple Watch Ultra 2',
+    categoria: 'Apple Watch',
+    anio: 2024,
+    pantalla: '49mm Always-On Retina',
+    procesador: 'Apple S9',
+    almacenamiento: '64GB',
+    memoria: '1GB RAM',
+    camara: 'No tiene',
+    bateria: 'Hasta 60 horas',
+    conectividad: 'Wi-Fi 6, Bluetooth 5.3, GPS + L5, LTE, Ultra Wideband',
+    precioBase: 799.0,
+    preciosPorAlmacenamiento: {
+      '49mm Titanio Negro': 799.0,
+      '49mm Titanio Natural': 799.0,
+    },
+  ),
+];

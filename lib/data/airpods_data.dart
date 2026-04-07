@@ -1,0 +1,58 @@
+import '../models/product_model.dart';
+
+final List<ProductModel> listaAirpods = [
+  ProductModel(
+    nombre: 'AirPods 4',
+    categoria: 'AirPods',
+    anio: 2024,
+    pantalla: 'N/A',
+    procesador: 'Apple H2',
+    almacenamiento: 'N/A',
+    memoria: 'N/A',
+    camara: 'N/A',
+    bateria: 'Hasta 5h auriculares + 30h con estuche',
+    conectividad: 'Bluetooth 5.3, USB-C, Audio adaptativo',
+    precioBase: 129.0,
+    preciosPorAlmacenamiento: {
+      'Sin ANC': 129.0,
+      'Con ANC': 179.0,
+    },
+  ),
+  ProductModel(
+    nombre: 'AirPods Pro 2',
+    categoria: 'AirPods',
+    anio: 2024,
+    pantalla: 'N/A',
+    procesador: 'Apple H2',
+    almacenamiento: 'N/A',
+    memoria: 'N/A',
+    camara: 'N/A',
+    bateria: 'Hasta 6h auriculares + 30h con estuche',
+    conectividad: 'Bluetooth 5.3, USB-C, ANC, Audio espacial',
+    precioBase: 249.0,
+    preciosPorAlmacenamiento: {
+      'USB-C': 249.0,
+      'MagSafe': 249.0,
+    },
+  ),
+  ProductModel(
+    nombre: 'AirPods Max',
+    categoria: 'AirPods',
+    anio: 2024,
+    pantalla: 'N/A',
+    procesador: 'Apple H2',
+    almacenamiento: 'N/A',
+    memoria: 'N/A',
+    camara: 'N/A',
+    bateria: 'Hasta 20 horas',
+    conectividad: 'Bluetooth 5.3, USB-C, ANC, Audio espacial',
+    precioBase: 549.0,
+    preciosPorAlmacenamiento: {
+      'Azul medianoche': 549.0,
+      'Blanco estrella': 549.0,
+      'Naranja': 549.0,
+      'Morado': 549.0,
+      'Rosa': 549.0,
+    },
+  ),
+];
